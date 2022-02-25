@@ -43,8 +43,8 @@ class MyApp extends StatelessWidget {
                             onPressed: () {},
                             child: Text(
                               'C',
-                              style:
-                                  TextStyle(fontSize: 50.0, color: Colors.blue),
+                              style: TextStyle(
+                                  fontSize: 50.0, color: Colors.red[900]),
                             ),
                             style: ButtonStyle(
                               backgroundColor:
@@ -59,8 +59,8 @@ class MyApp extends StatelessWidget {
                           onPressed: () {},
                           child: Text(
                             'DEL',
-                            style:
-                                TextStyle(fontSize: 50.0, color: Colors.blue),
+                            style: TextStyle(
+                                fontSize: 50.0, color: Colors.red[900]),
                           ),
                           style: ButtonStyle(
                             backgroundColor:
@@ -75,8 +75,8 @@ class MyApp extends StatelessWidget {
                             onPressed: () {},
                             child: Text(
                               '%',
-                              style:
-                                  TextStyle(fontSize: 50.0, color: Colors.blue),
+                              style: TextStyle(
+                                  fontSize: 50.0, color: Colors.green[900]),
                             ),
                             style: ButtonStyle(
                               backgroundColor:
@@ -92,8 +92,8 @@ class MyApp extends StatelessWidget {
                             onPressed: () {},
                             child: Text(
                               '/',
-                              style:
-                                  TextStyle(fontSize: 50.0, color: Colors.blue),
+                              style: TextStyle(
+                                  fontSize: 50.0, color: Colors.green[900]),
                             ),
                             style: ButtonStyle(
                               backgroundColor:
@@ -165,8 +165,8 @@ class MyApp extends StatelessWidget {
                             onPressed: () {},
                             child: Text(
                               '*',
-                              style:
-                                  TextStyle(fontSize: 50.0, color: Colors.blue),
+                              style: TextStyle(
+                                  fontSize: 50.0, color: Colors.green[900]),
                             ),
                             style: ButtonStyle(
                               backgroundColor:
@@ -238,8 +238,8 @@ class MyApp extends StatelessWidget {
                             onPressed: () {},
                             child: Text(
                               '+',
-                              style:
-                                  TextStyle(fontSize: 50.0, color: Colors.blue),
+                              style: TextStyle(
+                                  fontSize: 50.0, color: Colors.green[900]),
                             ),
                             style: ButtonStyle(
                               backgroundColor:
@@ -311,8 +311,8 @@ class MyApp extends StatelessWidget {
                             onPressed: () {},
                             child: Text(
                               '-',
-                              style:
-                                  TextStyle(fontSize: 50.0, color: Colors.blue),
+                              style: TextStyle(
+                                  fontSize: 50.0, color: Colors.green[900]),
                             ),
                             style: ButtonStyle(
                               backgroundColor:
@@ -331,8 +331,8 @@ class MyApp extends StatelessWidget {
                           onPressed: () {},
                           child: Text(
                             '+/-',
-                            style:
-                                TextStyle(fontSize: 50.0, color: Colors.blue),
+                            style: TextStyle(
+                                fontSize: 45.0, color: Colors.green[900]),
                           ),
                           style: ButtonStyle(
                             backgroundColor:
@@ -381,8 +381,8 @@ class MyApp extends StatelessWidget {
                             onPressed: () {},
                             child: Text(
                               '=',
-                              style:
-                                  TextStyle(fontSize: 50.0, color: Colors.blue),
+                              style: TextStyle(
+                                  fontSize: 50.0, color: Colors.green[900]),
                             ),
                             style: ButtonStyle(
                               backgroundColor:
