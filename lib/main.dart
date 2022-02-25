@@ -327,6 +327,21 @@ class MyApp extends StatelessWidget {
                     ),
                     Row(
                       children: [
+                        ElevatedButton(
+                          onPressed: () {},
+                          child: Text(
+                            '+/-',
+                            style:
+                                TextStyle(fontSize: 50.0, color: Colors.blue),
+                          ),
+                          style: ButtonStyle(
+                            backgroundColor:
+                                MaterialStateProperty.all(Colors.black),
+                          ),
+                        ),
+                        SizedBox(
+                          width: 20,
+                        ),
                         Expanded(
                           child: ElevatedButton(
                             onPressed: () {},
